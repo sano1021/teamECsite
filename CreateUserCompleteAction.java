@@ -37,7 +37,7 @@ public class CreateUserCompleteAction extends ActionSupport implements SessionAw
 			session.put("create_user_flg", 1);
 		}
 
-		// セッション削除（ログアウト？）
+		// セッション削除
 		session.remove("family_name");
 		session.remove("first_name");
 		session.remove("family_name_kana");
